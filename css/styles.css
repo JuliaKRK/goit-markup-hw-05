@@ -208,39 +208,45 @@ button {
   color: var(--okean-color);
 }
 
-.studio {
+.studio-battom {
   position: relative;
   color: var(--okean-color);
 }
 
-.studio::after {
+.studio-battom::after {
   display: inline-block;
   content: '';
   position: absolute;
   top: 100%;
   left: 0;
   transform: translate(0, 24px);
-  /* opacity: 0; */
 
-  padding-bottom: auto;
   width: 48px;
   height: 4px;
   transition: ;
   background: var(--okean-color);
   border-radius: 2px;
 }
+.portfolio-battom {
+  position: relative;
+  color: var(--okean-color);
+}
 
-/* .bottom-line::after {
-  display: block;
+.portfolio-battom::after {
+  display: inline-block;
   content: '';
   position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate(0, 24px);
+
   width: 66px;
   height: 4px;
-  left: 0px;
-  top: 48px;
-  background: #404bbf;
+  transition: ;
+  background: var(--okean-color);
   border-radius: 2px;
-} */
+}
+
 /* Banner Hero */
 
 .hero {
