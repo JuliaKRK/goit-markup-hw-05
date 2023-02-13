@@ -208,12 +208,12 @@ button {
   color: var(--okean-color);
 }
 
-.studio-battom {
+.studio-bottom {
   position: relative;
   color: var(--okean-color);
 }
 
-.studio-battom::after {
+.studio-bottom::after {
   display: inline-block;
   content: '';
   position: absolute;
@@ -227,12 +227,12 @@ button {
   background: var(--okean-color);
   border-radius: 2px;
 }
-.portfolio-battom {
+/* .portfolio-bottom {
   position: relative;
   color: var(--okean-color);
 }
 
-.portfolio-battom::after {
+.portfolio-bottom::after {
   display: inline-block;
   content: '';
   position: absolute;
@@ -245,7 +245,7 @@ button {
   transition: ;
   background: var(--okean-color);
   border-radius: 2px;
-}
+} */
 
 /* Banner Hero */
 
