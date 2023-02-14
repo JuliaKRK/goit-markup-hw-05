@@ -31,7 +31,7 @@
             <a class="link menu-link studio-bottom" href="./index.html">Studio</a>
           </li>
           <li class="menu-item">
-            <a class="link menu-link portfolio-bottom" href="./portfolio.html"> Portfolio </a>
+            <a class="link menu-link" href="./portfolio.html"> Portfolio </a>
           </li>
           <li class="menu-item">
             <a class="link menu-link" href=""> Contacts</a>
@@ -57,7 +57,7 @@
     <section class="hero">
       <div class="container hero-content">
         <h1 class="mein-title">Effective Solutions for Your Business</h1>
-        <button class="button primary" type="button">Order Service</button>
+        <button class="button primary" type="button" data-modal-open>Order Service</button>
       </div>
     </section>
     <!-- Advantages -->
@@ -396,6 +396,16 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="modal-close-btn-icon" width="8" height="8">
+          <use href="./images/sprite.svg#icon-close-black-18dp-2-1"> </use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
